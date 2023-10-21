@@ -71,6 +71,10 @@ h1 {
     background-color: #ff7733;
 }
 
+.hidden {
+    display: none;
+}
+
 .task-list {
     margin-top: 30px;
 }

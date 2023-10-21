@@ -32,5 +32,7 @@ addBtn.addEventListener("click", function() {
 
     newTaskCross.addEventListener("click", function(){
         newTask.remove();
+        if (taskList.childNodes.length === 1 && !taskList.classList.contains("hidden"))
+            taskList.classList.add("hidden");
     })
 })
